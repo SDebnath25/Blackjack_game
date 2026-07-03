@@ -1,0 +1,29 @@
+body{
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+h2{
+    color: rgb(240, 196, 18);
+}
+
+button{
+    color: green;
+    background-color: rgb(240, 196, 18);
+    width: 30vw;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+}
